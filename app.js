@@ -5,7 +5,7 @@ const allRoutes = require('./routes/allRoutes');
 const PORT = process.env.PORT || 3000
 
 // Database connection
-mongoose.connect("mongodb+srv://kpurbia:UmSf3DHlQZ59QpCn@blogdb.jva0rfn.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect('mongodb://127.0.0.1:27017/blogApp', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
