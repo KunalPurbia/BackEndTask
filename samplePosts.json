@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Technology",
+    "title": "Introduction to Node.js",
+    "description": "A beginner's guide to Node.js",
+    "published_on": "2022-01-01"
+  },
+  {
+    "category": "Food",
+    "title": "10 Easy Breakfast Recipes",
+    "description": "Quick and easy breakfast ideas for busy mornings",
+    "published_on": "2022-01-02"
+  },
+  {
+    "category": "Travel",
+    "title": "Top 10 Tourist Destinations in Europe",
+    "description": "A guide to the best places to visit in Europe",
+    "published_on": "2022-01-03"
+  }
+]
