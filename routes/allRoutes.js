@@ -8,7 +8,7 @@ const { addComment, getAllComments } = require('../controllers/commentController
 router.post('/', createPost);
 
 // Create a new comment in a post
-router.post('/:id/comments', addComment);
+router.post('/:id/comment', addComment);
 
 // Get all posts
 router.get('/', getAllPosts);

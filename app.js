@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Routes
-app.use('/posts', allRoutes);
+app.use('/blogs', allRoutes);
 
 // Start server
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
