@@ -27,4 +27,4 @@ const getPostDetail = async (req, res) => {
   res.send(post);
 };
 
-module.exports =  { createPost, getAllPosts, getPostDetail };
+module.exports = { createPost, getAllPosts, getPostDetail };

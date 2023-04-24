@@ -104,7 +104,7 @@ describe("get route - to get all comments of blog 1", () => {
 
 // DESTROYING DATABASE AFTER COMPLETE TEST
 afterAll(() => {
-  mongoose.connection.db.dropDatabase()
+  mongoose.connection.db.dropDatabase();
 });
 
 // Start server

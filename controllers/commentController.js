@@ -9,7 +9,6 @@ const addComment = async (req, res) => {
 
   const comment = new Comment({
     comment: req.body.comment,
-    post: post._id,
   });
 
   await comment.save();
