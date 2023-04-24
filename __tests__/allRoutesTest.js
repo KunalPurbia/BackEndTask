@@ -86,15 +86,15 @@ describe("post route - to add 2 comments to blog 1", () => {
 
 // Getting on blog in detail using id
 describe("get route - to get blog 1 in detail with comments", () => {
-  it("GET /blogs/:id/comment", async () => {
+  it("GET /blogs/:id/", async () => {
     const { body, statusCode } = await request(app).get(`/blogs/${blog1}`);
     expect(statusCode).toBe(200);
   });
 });
 
 // Getting all comments on single blog using blog id
-describe("get route - to get blog 1 in detail with comments", () => {
-  it("get /blogs/:id/comments", async () => {
+describe("get route - to get all comments of blog 1", () => {
+  it("GET /blogs/:id/comments", async () => {
     const { body, statusCode } = await request(app).get(
       `/blogs/${blog1}/comments`
     );
